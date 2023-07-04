@@ -1,7 +1,7 @@
 {
   "scripts": {
     "tsc": "tsc",
-    "build": "npx swc ./src/index.ts | sed '1d' > ./public/index.js"
+    "build": "npx swc ./src/index.ts | sed '1d' > ./docs/index.js"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.62",
